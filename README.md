@@ -13,7 +13,7 @@ code](https://github.com/galenhuntington/pec).
 To clone the repo with all the data, you need to specifically include
 submodules, for example like this:
 
-```sh
+```console
 $ git clone --recurse-submodules git@github.com:galenhuntington/pec-python.git
 ```
 
@@ -21,7 +21,7 @@ Depending on your platform and configuration, the code might be run
 with `python3 pec.py`, `python pec.py`, `./pec.py`, or just `pec.py`.
 Example usage:
 
-```sh
+```console
 $ python3 pec.py data/2000.dat
        t       A    B    C           v/e                Δ
 AL     9       6    3    0       200,000       79,943 B→A
